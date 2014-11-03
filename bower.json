@@ -1,0 +1,28 @@
+{
+  "name": "calculatable",
+  "version": "0.0.1",
+  "authors": [
+    "Bryan McKelvey <bryan.mckelvey@gmail.com>"
+  ],
+  "description": "Makes table navigation, editing and recalculation a lot flipping easier",
+  "main": "dist/calculatable.jquery.js",
+  "keywords": [
+    "spreadsheet",
+    "table",
+    "input",
+    "ui"
+  ],
+  "license": "MIT",
+  "homepage": "http://brymck.github.io/calculatable/",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "coffee",
+    "node_modules",
+    "sass",
+    "spec",
+    "Gemfile",
+    "Gemfile.lock",
+    "Gruntfile.coffee"
+  ]
+}

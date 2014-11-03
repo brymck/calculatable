@@ -1,0 +1,42 @@
+@import "compass/css3/box-sizing";
+@import "compass/css3/images";
+@import "compass/css3/user-interface";
+
+$background: rgb(255, 255, 255);
+$outline: rgb(206, 206, 206);
+/** $focus: rgb(255, 243, 165); */
+$focus: rgb(35, 58, 211);
+
+.calculatable {
+  :focus {
+    outline-color: transparent;
+    outline-style: none;
+  }
+
+  input {
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    border-collapse: collapse;
+    font-family: sans-serif;
+    font-size: 0.875em;
+  }
+
+  td, th {
+    border: solid 1px $outline;
+    padding: 0;
+
+    input {
+      border: solid 1px $background;
+      font-size: 100%;
+      margin: auto 0.25em;
+      min-height: 2em;
+      &:focus {
+        border-color: $focus;
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+bower_components/
+dist/
+spec/js/
+.DS_Store
+.project
+.sass-cache
+Gemfile.lock
+node_modules
+spreadsheetify.zip
